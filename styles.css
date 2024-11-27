@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+.holder{
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	flex-wrap : wrap;
+	
+}
+.item{
+	height : 100px;
+	width : 100px;
+	border : 1px solid black;
+	
+}
+#box1{
+	background : red;
+	order : 2;
+}
+#box2{
+	background : blue;
+	order : 3;
+}
+#box3{
+	order : 1;
+	background : green;
+	order : 1;
+}
